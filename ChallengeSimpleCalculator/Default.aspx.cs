@@ -18,8 +18,8 @@ namespace ChallengeSimpleCalculator
         {
             string i = firstValueTextBox.Text;
             string j = secondValueTextBox.Text;
-            double k = double.Parse(i);  // integer firstValue
-            double l = double.Parse(j);  // integer secondValue
+            double k = double.Parse(i);  // Conversion firstValue to double
+            double l = double.Parse(j);  // Conversion secondValue to double
 
             double result = (double)k + (double)l;
 
@@ -31,8 +31,8 @@ namespace ChallengeSimpleCalculator
         {
             string i = firstValueTextBox.Text;
             string j = secondValueTextBox.Text;
-            double k = double.Parse(i);  // integer firstValue
-            double l = double.Parse(j);  // integer secondValue
+            double k = double.Parse(i);  // Conversion firstValue to double
+            double l = double.Parse(j);  // Conversion secondValue to double
 
             double result = (double)k - (double)l;
 
@@ -44,8 +44,8 @@ namespace ChallengeSimpleCalculator
         {
             string i = firstValueTextBox.Text;
             string j = secondValueTextBox.Text;
-            double k = double.Parse(i);  // integer firstValue
-            double l = double.Parse(j);  // integer secondValue
+            double k = double.Parse(i);  // Conversion firstValue to double
+            double l = double.Parse(j);  // Conversion secondValue to double
 
             double result = (double)k * (double)l;
 
@@ -57,8 +57,8 @@ namespace ChallengeSimpleCalculator
         {
             string i = firstValueTextBox.Text;
             string j = secondValueTextBox.Text;
-            double k = double.Parse(i);  // integer firstValue
-            double l = double.Parse(j);  // integer secondValue
+            double k = double.Parse(i);  // Conversion firstValue to double
+            double l = double.Parse(j);  // Conversion secondValue to double
 
             double result = (double)k / (double)l;
 
